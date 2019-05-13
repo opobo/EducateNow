@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="ABOUT MBARARA UNIVERSITY"
+                android:textAlignment="center"
+                android:paddingVertical="15dp"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_height="50dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/badge"
+            android:scaleType="centerCrop"
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/about_must"
+                android:textAlignment="center"
+                android:paddingVertical="15dp"
+                android:layout_height="200dp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="MUST MISSION AND VISION STATEMENT"
+                android:textAlignment="center"
+                android:paddingVertical="15dp"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@android:color/black"
+                android:paddingVertical="15dp"
+                android:text="@string/mission"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="CURRENT VICE CHANCELLOR"
+                android:textAlignment="center"
+                android:paddingVertical="15dp"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_height="50dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/vc"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="KIHUMURO MAIN CAMOUS VIEW"
+                android:textAlignment="center"
+                android:paddingVertical="15dp"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/must"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="END MUST HISTORY"
+                android:textAlignment="center"
+                android:paddingVertical="15dp"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

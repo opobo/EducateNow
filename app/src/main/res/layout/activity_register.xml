@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_dark"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:text="Create New User Account"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textAlignment="center"
+            android:paddingVertical="10dp"
+            android:textSize="18dp"
+            />
+
+        <EditText
+            android:id="@+id/fullname"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:hint="Enter Full Name"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:inputType="textPersonName"
+            android:hint="Enter User name"
+            android:background="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="45dp" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:hint="Enter password"
+            android:inputType="textPassword"
+            android:background="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="45dp" />
+
+        <EditText
+            android:id="@+id/confirm"
+            android:layout_width="300dp"
+            android:hint="Enter password"
+            android:inputType="textPassword"
+            android:background="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="45dp" />
+        <Button
+            android:id="@+id/create"
+            android:layout_width="300dp"
+            android:text="Create Account"
+            android:onClick="createAccount"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="45dp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MUST APP</string>
+    <string name="welcome_to_mbarara_university_of_nscience_and_technology">Welcome to Mbarara University of Science and Technology</string>
+    <string name="continue_now">Continue</string>
+    <string name="about_must">Mbarara University of Science and Technology also known as MUST was opened in October 1989 after extensive modification of physical facilities of the former School of Midwifery at the Mbarara District hospital.  The Mbarara University of Science and Technology Statue 1989 as passed by the National Resistance Council was the enabling law that established MUST as  a body corporate. At that time Uganda’s economy and social infrastructure which had collapsed, due to  civil wars in the 1970’s and 1980’s. </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mission">MUST MISSION\nTo provide quality and relevant education at national and international level with particular emphasis on Science and Technology and its application to community development.\n\nMUST VISION\nTo be a centre of academic and professional excellence in Science and Technology.</string>
+</resources>
